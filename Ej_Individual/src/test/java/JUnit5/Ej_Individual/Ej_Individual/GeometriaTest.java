@@ -47,4 +47,11 @@ class GeometriaTest {
 		assertEquals(resultado, esperado, delta);
 	}
 	
+	@Test
+	public void testAreaRectangulo() {
+		Geometria prueba = new Geometria();
+		double resultado = prueba.arearectangulo(2,4);
+		System.out.println(resultado);
+	}
+	
 }
